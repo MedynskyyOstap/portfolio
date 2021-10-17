@@ -2,7 +2,7 @@ import { RiComputerLine } from "react-icons/ri";
 import { FaServer } from "react-icons/fa";
 import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
-import { IProject, IService, Skill } from "./types";
+import { IProject, IService, ISkill } from "./types";
 
 import { BsCircleFill } from "react-icons/bs";
 
@@ -11,7 +11,7 @@ export const services: IService[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   & <b>React.js</b> || <b>Vue.js</b> ",
   },
   {
     Icon: FaServer,
@@ -44,7 +44,7 @@ export const services: IService[] = [
   },
 ];
 
-export const languages: Skill[] = [
+export const languages: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
