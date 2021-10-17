@@ -1,10 +1,10 @@
-import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
-import { MdDeveloperMode } from "react-icons/md";
-import { IProject, IService, ISkill } from "./types";
+import { RiComputerLine } from "react-icons/ri"
+import { FaServer } from "react-icons/fa"
+import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai"
+import { MdDeveloperMode } from "react-icons/md"
+import { IProject, IService, ISkill } from "./types"
 
-import { BsCircleFill } from "react-icons/bs";
+import { BsCircleFill } from "react-icons/bs"
 
 export const services: IService[] = [
 	{
@@ -42,7 +42,7 @@ export const services: IService[] = [
     about:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis minima autem!",
   },
-];
+]
 
 export const languages: ISkill[] = [
   {
@@ -75,9 +75,9 @@ export const languages: ISkill[] = [
     name: "Bootstrap",
     level: "80",
   },
-];
+]
 
-export const tools: Skill[] = [
+export const tools: ISkill[] = [
   {
     Icon: BsCircleFill,
     name: "Figma",
@@ -98,7 +98,7 @@ export const tools: Skill[] = [
     name: "Framer",
     level: "45",
   },
-];
+]
 
 export const projects: IProject[] = [
   { 
@@ -200,4 +200,4 @@ export const projects: IProject[] = [
       "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
     key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
   },
-];
+]
